@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="user" class="Table.User" scope="prototype"></bean>
+    <bean name="design" class="Table.Design" scope="prototype"></bean>
+
+    <!-- 登陆模块 -->
+    <bean name="loginDao" class="DAO.LoginDao" scope="prototype">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean name="login" class="Action.LoginAction" scope="prototype">
+        <property name="loginDao" ref="loginDao"></property>
+    </bean>
+
+    <!-- 注册模块 -->
+    <bean name="registerDao" class="DAO.RegisterDao" scope="prototype">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean name="register" class="Action.RegisterAction" scope="prototype">
+        <property name="registerDao" ref="registerDao"></property>
+    </bean>
+    <bean name="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" scope="prototype">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="mappingLocations" value="classpath*:Table/User.hbm.xml"></property>
+        <property name="mappingResources" value="hibernate.cfg.xml"></property>
+    </bean>
+
+    <!-- 查询题目模块 -->
+    <bean name="queryTopicDao" class="DAO.QueryTopicDao" scope="prototype">
+        <property name="sessionFactory" ref="sessionFactory2"></property>
+    </bean>
+    <bean name="query" class="Action.QueryTopicAction" scope="prototype">
+        <property name="queryTopicDao" ref="queryTopicDao"></property>
+    </bean>
+
+    <!-- 录入题目模块 -->
+    <bean name="entryTopicDao" class="DAO.EntryTopicDao" scope="prototype">
+        <property name="sessionFactory" ref="sessionFactory2"></property>
+    </bean>
+    <bean name="entry" class="Action.EntryTopicAction" scope="prototype">
+        <property name="entryTopicDao" ref="entryTopicDao"></property>
+    </bean>
+
+    <!-- 录入学院模块 -->
+    <bean name="addCollegeToTopicDao" class="DAO.AddCollegeToTopicDao" scope="prototype">
+        <property name="sessionFactory" ref="sessionFactory2"></property>
+    </bean>
+    <bean name="addCollege" class="Action.AddCollegeToTopicAction" scope="prototype">
+        <property name="addCollegeToTopicDao" ref="addCollegeToTopicDao"></property>
+        <property name="queryTopicDao" ref="queryTopicDao"></property>
+    </bean>
+
+    <!-- 过滤题目模块 -->
+    <bean name="filterTopic" class="Action.FilterTopicAction">
+        <property name="queryTopicDao" ref="queryTopicDao"></property>
+    </bean>
+    <bean name="sessionFactory2" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" scope="prototype">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="mappingLocations" value="classpath*:Table/Design.hbm.xml"></property>
+        <property name="mappingResources" value="hibernate.cfg.xml"></property>
+    </bean>
+    <bean name="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" scope="prototype">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
+        <property name="url" value="jdbc:mysql://localhost:3306/Graduation?characterEncoding=UTF-8"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="bingjie123"></property>
+    </bean>
+</beans>
