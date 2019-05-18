@@ -33,5 +33,8 @@
         <action name="filterTopic" class="filterTopic">
             <result name="success">/WEB-INF/JSP/addCollegeToTopic.jsp</result>
         </action>
+        <action name="quit" class="quit">
+            <result name="success">/WEB-INF/JSP/login.jsp</result>
+        </action>
     </package>
 </struts>

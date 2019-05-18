@@ -19,10 +19,10 @@
     <h2>欢迎 ${sessionScope.user.student } 使用毕业设计题目系统!</h2><hr>
     <h3>筛选毕业设计题目:</h3>
     <form action="filterTopic.action" method="post">
-        <s:textfield name="keyword" label="筛选关键字"/>
-        <s:submit value="筛选"/>
+        筛选关键字：<input type="text" name="keyword">
+        <input type="submit" value="筛选">
     </form><hr>
-    <table border="2">
+    <table border="2" style="text-align: center">
         <tr>
             <th>编号</th>
             <th>负责人</th>
@@ -50,8 +50,19 @@
         <s:actionerror cssStyle="color:red"/>
         <s:actionmessage/>
     </table><hr>
-    <form action="graduation.jsp" method="post">
-        <input type="submit" value="返回菜单">
-    </form>
+    <table cellspacing="20px">
+        <tr>
+        <td>
+            <form action="graduation.jsp" method="post">
+                <input type="submit" value="返回菜单" style="font-size: 20px">
+            </form>
+        </td>
+        <td>
+            <form action="quit.action" method="post">
+                <input type="submit" value="退出" style="font-size: 20px">
+            </form>
+        </td>
+        </tr>
+    </table>
 </body>
 </html>

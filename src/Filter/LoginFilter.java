@@ -8,7 +8,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 //登陆检查过滤器
-@WebFilter(urlPatterns = {"/graduation.jsp","/addCollegeToTopic.jsp","/entryTopic.jsp","/queryTopic.jsp","/showTopic.jsp","/query.action","/entry.action","/addCollege.action","/filterTopic.action"})
+@WebFilter(urlPatterns = {"/graduation.jsp","/addCollegeToTopic.jsp","/entryTopic.jsp","/queryTopic.jsp","/showTopic.jsp","/query.action","/entry.action","/addCollege.action"})
 public class LoginFilter implements javax.servlet.Filter {
 
     public void destroy() {
@@ -18,7 +18,7 @@ public class LoginFilter implements javax.servlet.Filter {
         HttpServletRequest request = (HttpServletRequest) req;
         HttpSession session = request.getSession();
         User user = (User) session.getAttribute("user");
-        if(user == null) {
+        if(user == null || user.getStudent().equals("")) {
             request.getRequestDispatcher("/login.jsp").forward(req, resp);
         } else {
             chain.doFilter(req, resp);

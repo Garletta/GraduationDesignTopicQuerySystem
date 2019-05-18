@@ -3,6 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
+    <!-- Bean -->
     <bean name="user" class="Table.User" scope="prototype"></bean>
     <bean name="design" class="Table.Design" scope="prototype"></bean>
 
@@ -53,7 +54,7 @@
     </bean>
 
     <!-- 过滤题目模块 -->
-    <bean name="filterTopic" class="Action.FilterTopicAction">
+    <bean name="filterTopic" class="Action.FilterTopicAction" scope="prototype">
         <property name="queryTopicDao" ref="queryTopicDao"></property>
     </bean>
     <bean name="sessionFactory2" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" scope="prototype">
@@ -67,4 +68,7 @@
         <property name="username" value="root"></property>
         <property name="password" value="bingjie123"></property>
     </bean>
+
+    <!-- 退出模块 -->
+    <bean name="quit" class="Action.QuitAction" scope="prototype"></bean>
 </beans>

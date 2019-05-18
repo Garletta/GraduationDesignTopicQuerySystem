@@ -11,6 +11,6 @@
     <title>毕业设计题目查询系统</title>
   </head>
   <body>
-    <jsp:forward page="WEB-INF/JSP/login.jsp"></jsp:forward>
+    <jsp:forward page="/WEB-INF/JSP/login.jsp"></jsp:forward>
   </body>
 </html>

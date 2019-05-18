@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page import="com.opensymphony.xwork2.ActionContext" %>
 <%@ page import="java.util.Map" %>
 <%@ page import="java.util.ArrayList" %>
@@ -16,7 +17,7 @@
 </head>
 <body>
     <h2>欢迎 ${sessionScope.user.student } 使用毕业设计题目系统!</h2><hr>
-    <h2>查询到的毕业设计题目如下:</h2>
+    <h3>查询到的毕业设计题目如下:</h3>
     <table border="2">
         <tr>
             <th>编号</th>
@@ -38,12 +39,25 @@
         <%
             }
         %>
-    </table><br>
-    <form action="queryTopic.jsp" method="post">
-        <input type="submit" value="返回查询">
-    </form><hr>
-    <form action="graduation.jsp" method="post">
-        <input type="submit" value="返回菜单">
-    </form>
+    </table><hr>
+    <table cellspacing="20px">
+        <tr>
+        <td>
+            <form action="queryTopic.jsp" method="post">
+                <input type="submit" value="返回查询">
+            </form>
+        </td>
+        <td>
+            <form action="graduation.jsp" method="post">
+                <input type="submit" value="返回菜单">
+            </form>
+        </td>
+        <td>
+            <form action="quit.action" method="post">
+                <input type="submit" value="退出">
+            </form>
+        </td>
+        </tr>
+    </table>
 </body>
 </html>
