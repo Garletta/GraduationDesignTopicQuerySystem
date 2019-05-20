@@ -61,7 +61,6 @@
     <orderEntry type="library" exported="" name="Struts 2" level="project" />
     <orderEntry type="library" exported="" name="Spring-4.3.18.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Hibernate 5.4.2-5.4.2" level="project" />
-    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.8" level="project" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>

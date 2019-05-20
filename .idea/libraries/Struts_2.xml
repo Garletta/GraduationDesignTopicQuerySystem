@@ -1,17 +1,19 @@
 <component name="libraryTable">
   <library name="Struts 2" type="struts2">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/commons-lang3-3.8.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/freemarker-2.3.28.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/commons-fileupload-1.4.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/commons-io-2.6.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/javassist-3.20.0-GA.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/log4j-api-2.11.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/ognl-3.1.21.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../struts-2.5.20/lib/struts2-core-2.5.20.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-pool2-2.6.2.jar!/" />
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-fileupload-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-lang3-3.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker-2.3.28.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-api-2.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-3.1.21.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-core-2.5.20.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
   </library>
 </component>

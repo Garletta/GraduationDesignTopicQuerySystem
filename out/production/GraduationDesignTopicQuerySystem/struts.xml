@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<struts>
+    <package name="struts2" extends="struts-default">
+        <action name="login" class="login" >
+            <result name="success">/WEB-INF/JSP/graduation.jsp</result>
+            <result name="input">/WEB-INF/JSP/login.jsp</result>
+            <result name="error">/WEB-INF/JSP/login.jsp</result>
+        </action>
+        <action name="register" class="register">
+            <result name="success">/WEB-INF/JSP/register.jsp</result>
+            <result name="input">/WEB-INF/JSP/register.jsp</result>
+            <result name="error">/WEB-INF/JSP/register.jsp</result>
+        </action>
+        <action name="query" class="query">
+            <result name="success">/WEB-INF/JSP/showTopic.jsp</result>
+            <result name="input">/WEB-INF/JSP/queryTopic.jsp</result>
+            <result name="error">/WEB-INF/JSP/queryTopic.jsp</result>
+        </action>
+        <action name="entry" class="entry">
+            <result name="success">/WEB-INF/JSP/entryTopic.jsp</result>
+            <result name="error">/WEB-INF/JSP/entryTopic.jsp</result>
+            <result name="input">/WEB-INF/JSP/entryTopic.jsp</result>
+        </action>
+        <action name="addCollege" class="addCollege">
+            <result name="success">/WEB-INF/JSP/addCollegeToTopic.jsp</result>
+            <result name="error">/WEB-INF/JSP/addCollegeToTopic.jsp</result>
+        </action>
+        <action name="filterTopic" class="filterTopic">
+            <result name="success">/WEB-INF/JSP/addCollegeToTopic.jsp</result>
+        </action>
+        <action name="quit" class="quit">
+            <result name="success">/WEB-INF/JSP/login.jsp</result>
+        </action>
+    </package>
+</struts>
