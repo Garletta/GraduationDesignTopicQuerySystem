@@ -9,4 +9,9 @@
         <property name="password" column="PASSWORD"/>
         <property name="student" column="STUDENT"/>
     </class>
+    <class name="Table.Design" table="DESIGN" schema="Graduation">
+        <id name="student" column="STUDENT"/>
+        <property name="topic" column="TOPIC"/>
+        <property name="college" column="COLLEGE"/>
+    </class>
 </hibernate-mapping>

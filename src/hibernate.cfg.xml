@@ -6,8 +6,7 @@
   <session-factory>
     <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
     <mapping class="Table.User"/>
-    <mapping resource="Table/User.hbm.xml"/>
     <mapping class="Table.Design"/>
-    <mapping resource="Table/Design.hbm.xml"/>
+    <mapping resource="Table/Table.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>
