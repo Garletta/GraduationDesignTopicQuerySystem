@@ -6,25 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de26eebf-33aa-4508-8b21-3e349530ac1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GraduationDesignTopicQuerySystem_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GraduationDesignTopicQuerySystem_war.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graduation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Graduation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraduationDesignTopicQuerySystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraduationDesignTopicQuerySystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Struts2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/struts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/struts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/addCollegeToTopic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/addCollegeToTopic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/entryTopic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/entryTopic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/graduation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/graduation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/queryTopic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/queryTopic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/JSP/showTopic.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/JSP/showTopic.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="de26eebf-33aa-4508-8b21-3e349530ac1b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -463,18 +445,17 @@
       <workItem from="1558097909512" duration="124000" />
       <workItem from="1558101211359" duration="599000" />
       <workItem from="1558166506918" duration="14000" />
-      <workItem from="1558185055029" duration="7082000" />
+      <workItem from="1558185055029" duration="7857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54956000" />
+    <option name="totallyTimeSpent" value="55731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66290325" visible="true" weight="0.17358893" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66290325" visible="true" weight="0.17358893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.5011442" side_tool="true" weight="0.15167198" />
@@ -496,7 +477,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.23675676" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.23675676" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32942098" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32864866" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.32972974" />
