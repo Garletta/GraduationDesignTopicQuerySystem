@@ -7,24 +7,91 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de26eebf-33aa-4508-8b21-3e349530ac1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/GraduationDesignTopicQuerySystem_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/GraduationDesignTopicQuerySystem_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_2_5_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_2_5_4_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_8.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GraduationDesignTopicQuerySystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GraduationDesignTopicQuerySystem.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/commons-fileupload-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/commons-io-2.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/commons-lang3-3.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/freemarker-2.3.28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/javassist-3.20.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/log4j-api-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/ognl-3.1.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/struts-2.5.20/lib/struts2-core-2.5.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/addCollegeToTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/entryTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/graduation.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/queryTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/JSP/showTopic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/AddCollegeToTopicAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/EntryTopicAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/FilterTopicAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/LoginAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/QueryTopicAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/QuitAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Action/RegisterAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/DAO/AddCollegeToTopicDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/DAO/EntryTopicDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/DAO/LoginDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/DAO/QueryTopicDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/DAO/RegisterDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Filter/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Table/Design.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Table/Design.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Table/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/Table/User.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/classes/struts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/commons-dbcp2-2.6.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/commons-fileupload-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/commons-lang3-3.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/commons-pool2-2.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/freemarker-2.3.28.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/hibernate-core-5.4.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/log4j-api-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/ognl-3.1.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-aspects-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-context-support-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-instrument-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-instrument-tomcat-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-jms-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-messaging-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-orm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-oxm-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-test-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/spring-websocket-5.0.2.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/struts2-core-2.5.20.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/struts2-spring-plugin-2.3.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/lib/xwork-2.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GraduationDesignTopicQuerySystem_war_exploded/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,29 +136,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Table/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Table/User.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -103,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Table/Design.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="342">
               <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -112,11 +156,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="357">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/JSP/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="406">
+              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -132,18 +194,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/struts.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
+            <state relative-caret-position="684">
               <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DAO/LoginDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="133">
               <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -155,7 +217,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Action/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="418">
               <caret line="27" column="37" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -257,17 +319,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="GraduationDesignTopicQuerySystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationDesignTopicQuerySystem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraduationDesignTopicQuerySystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraduationDesignTopicQuerySystem" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GraduationDesignTopicQuerySystem" type="b2602c69:ProjectViewProjectNode" />
@@ -324,8 +383,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -335,7 +392,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/struts2-core-2.5.20.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -469,17 +526,19 @@
       <workItem from="1558101211359" duration="599000" />
       <workItem from="1558166506918" duration="14000" />
       <workItem from="1558185055029" duration="7857000" />
-      <workItem from="1558351714765" duration="2165000" />
+      <workItem from="1558351714765" duration="2446000" />
+      <workItem from="1558365591089" duration="937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57896000" />
+    <option name="totallyTimeSpent" value="59114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5679758" visible="true" weight="0.17518637" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5679758" visible="true" weight="0.17678382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" sideWeight="0.43202418" side_tool="true" weight="0.17518637" />
@@ -490,7 +549,7 @@
       <window_info id="Web" order="8" sideWeight="0.33709678" side_tool="true" weight="0.15921193" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.26594594" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28432432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28432432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -631,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Action/QuitAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -727,13 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/JSP/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Filter/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -756,64 +801,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Action/RegisterAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Action/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="37" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/LoginDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Table/Design.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Table/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="247">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -830,6 +820,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Table/Design.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Table/Design.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -837,10 +844,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/struts.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="57" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/LoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="37" selection-start-line="26" selection-start-column="12" selection-end-line="27" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Action/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="357">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/JSP/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -909,7 +968,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Struts 2</last-edited>
+          <last-edited>Spring-4.3.18.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
