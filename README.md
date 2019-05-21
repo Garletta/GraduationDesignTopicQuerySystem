@@ -11,9 +11,20 @@ Graduation Design Topic Query System
 
 ## 程序主要页面
 
-![登录页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/login.png)  
-![注册页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/register.png)  
-![菜单页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/menu.png)  
-![学院录入页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/addCollege.png)  
-![题目录入页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/entryTopic.png)  
-![题目查询页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/queryTopic.png)  
+> 登陆页面：  
+> ![登录页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/login.png)  
+
+> 注册页面：  
+> ![注册页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/register.png)  
+
+> 菜单页面：  
+> ![菜单页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/menu.png)  
+
+> 学院录入页面：  
+> ![学院录入页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/addCollege.png)  
+
+> 题目录入页面：  
+> ![题目录入页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/entryTopic.png)  
+
+> 题目查询页面：  
+> ![题目查询页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/queryTopic.png)  
