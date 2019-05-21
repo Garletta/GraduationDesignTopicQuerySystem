@@ -17,4 +17,3 @@ Graduation Design Topic Query System
 ![学院录入页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/addCollege.png)  
 ![题目录入页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/entryTopic.png)  
 ![题目查询页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/queryTopic.png)  
-![退出页面](https://github.com/Garletta/GraduationDesignTopicQuerySystem/raw/master/Images/quit.png)  
