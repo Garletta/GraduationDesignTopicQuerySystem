@@ -36,7 +36,7 @@ CREATE TABLE `DESIGN` (
 
 LOCK TABLES `DESIGN` WRITE;
 /*!40000 ALTER TABLE `DESIGN` DISABLE KEYS */;
-INSERT INTO `DESIGN` VALUES ('于晨','基于仿生的飞行器设计','信息数理学院'),('林锦雄','基于深度骨骼数据的阿尔茨海默症步态识别与开发','信息数理学院'),('气温','基于天使轮投资的风险评估',''),('王源','新型固体碱催化剂的制备及其酯交换性能研究','石油化工学院'),('路人','行走的艺术','艾丁学院'),('陈强','新石器时代打火石大发现','考古学院');
+INSERT INTO `DESIGN` VALUES ('于晨','基于仿生的飞行器设计','信息数理学院'),('林锦雄','基于深度骨骼数据的阿尔茨海默症步态识别与开发','信息数理学院'),('气温','基于天使轮投资的风险评估','金融学院'),('王源','新型固体碱催化剂的制备及其酯交换性能研究','石油化工学院'),('路人','行走的艺术','艾丁学院'),('陈强','新石器时代打火石大发现','考古学院');
 /*!40000 ALTER TABLE `DESIGN` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -61,7 +61,7 @@ CREATE TABLE `USER` (
 
 LOCK TABLES `USER` WRITE;
 /*!40000 ALTER TABLE `USER` DISABLE KEYS */;
-INSERT INTO `USER` VALUES ('16430121','123456','林锦雄'),('aaa','qwe','气温'),('yuchen','yuchen','于晨');
+INSERT INTO `USER` VALUES ('16416213','chenqiang','陈强'),('16430121','123456','林锦雄'),('aaa','qwe','气温'),('yuchen','yuchen','于晨');
 /*!40000 ALTER TABLE `USER` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -74,4 +74,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-21  9:14:25
+-- Dump completed on 2019-05-21 22:32:15
