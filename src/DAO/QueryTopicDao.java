@@ -10,9 +10,11 @@ import java.util.ArrayList;
 //按关键字查询毕业设计题目
 public class QueryTopicDao {
 
-    private ArrayList<Design> topics;
-    private SessionFactory sessionFactory;
+    private ArrayList<Design> topics;   //查询毕业设计题目结果集
+    private SessionFactory sessionFactory;  //session工厂对象
 
+    //用sessionFactory打开一个session,然后根据账号传参查询数据库
+    //根据关键字查询并返回数据库中负责人姓名、题目名称或所属学院名含有关键字的匹配项
     public ArrayList<Design> QueryByKeyword(String keyword) {
         Session session = sessionFactory.openSession();
         String HQL = "from Design where concat(student,topic,college) like :keyword";
@@ -23,6 +25,7 @@ public class QueryTopicDao {
         return topics;
     }
 
+    //查询并返回数据库中全部毕业设计题目
     public ArrayList<Design> QueryAll() {
         Session session = sessionFactory.openSession();
         String HQL = "from Design ";

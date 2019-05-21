@@ -8,13 +8,16 @@ import org.hibernate.Transaction;
 //录入新的毕业设计题目Dao
 public class EntryTopicDao {
 
-    private Design design;
-    private SessionFactory sessionFactory;
+    private Design design;  //一个Design对象
+    private SessionFactory sessionFactory;  //session工厂对象
 
+    //用sessionFactory打开一个session,然后根据账号传参查询数据库
+    //如果查询到题目负责人已存在,表示重复录入(我们规定每个人只能有一个毕业设计题目)
+    //数据库中不存在该题目,开启一个事务并把该新题目写入数据库
     public boolean EntryTopic(String student, String topic, String college) {
         Session session = sessionFactory.openSession();
         design = session.get(Design.class,student);
-        if(design != null && design.getTopic().equals(topic)) {
+        if(design != null && design.getStudent().equals(student)) {
             session.close();
             return false;
         } else {

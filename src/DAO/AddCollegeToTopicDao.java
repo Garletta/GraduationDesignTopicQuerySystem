@@ -8,9 +8,12 @@ import org.hibernate.Transaction;
 //往已有毕业设计题目中录入学院名Dao
 public class AddCollegeToTopicDao {
 
-    private Design design;
-    private SessionFactory sessionFactory;
+    private Design design;  //一个Design对象
+    private SessionFactory sessionFactory;  //session工厂对象
 
+    //用sessionFactory打开一个session,然后根据账号传参查询数据库
+    //如果查询到的题目学院名称和传参相同,表示重复录入,返回false
+    //否则开启一个事务并更新学院名,返回true
     public boolean addCollege(String student, String college) {
         Session session = sessionFactory.openSession();
         design = session.get(Design.class, student);

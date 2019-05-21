@@ -8,7 +8,7 @@ public class QuitAction {
 
     public String execute() {
         Map session = ActionContext.getContext().getSession();
-        session.remove("user");
+        session.remove("user"); //删除session中的key为user的数据
         return "success";
     }
 }

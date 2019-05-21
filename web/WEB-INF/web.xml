@@ -4,6 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
+    <!-- spring监听器 -->
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -13,6 +14,7 @@
         <param-value>classpath*:applicationContext.xml</param-value>
     </context-param>
 
+    <!-- struts2过滤器 -->
     <filter>
         <filter-name>struts2</filter-name>
         <filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
@@ -22,11 +24,13 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <!-- 欢迎页面列表 -->
     <welcome-file-list>
         <welcome-file>/index.jsp</welcome-file>
         <welcome-file>/WEB-INF/JSP/login.jsp</welcome-file>
     </welcome-file-list>
 
+    <!-- JSP注册 -->
     <servlet>
         <servlet-name>login.jsp</servlet-name>
         <jsp-file>/WEB-INF/JSP/login.jsp</jsp-file>

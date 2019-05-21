@@ -10,13 +10,16 @@ import java.util.Map;
 //登陆模块
 public class LoginAction extends ActionSupport {
 
-    private String account;
-    private String password;
-    private LoginDao loginDao;
+    private String account;     //登陆账号
+    private String password;    //登陆密码
+    private LoginDao loginDao;  //登陆Dao
 
     @Override
     public String execute() {
         User user = loginDao.Login(account, password);
+        //user为空,表示账号在数据库中找不到,即账号不存在
+        //user的密码为空字符串,表示数据库中密码与用户输入密码不一致,即密码不正确
+        //登陆信息正确,在session中保存正在登陆账号的信息,进入系统
         if(user == null) {
             addActionError("账号不存在!");
             return "error";
@@ -33,6 +36,7 @@ public class LoginAction extends ActionSupport {
     @Override
     public void validate() {
         super.validate();
+        //登陆信息中账号、密码不能为空,为空时返回错误显示
         if(account == null || account.equals("")) {
             this.addFieldError("account","账号不能为空");
         }

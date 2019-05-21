@@ -12,18 +12,21 @@ import java.util.Map;
 //往已有毕业设计题目中录入学院名
 public class AddCollegeToTopicAction extends ActionSupport {
 
-    private String student;
-    private String college;
-    private AddCollegeToTopicDao addCollegeToTopicDao;
-    private QueryTopicDao queryTopicDao;
-    private ArrayList<Design> topics;
+    private String student;             //负责人姓名
+    private String college;             //学院名
+    private AddCollegeToTopicDao addCollegeToTopicDao;//添加学院Dao
+    private QueryTopicDao queryTopicDao;//查询Dao
+    private ArrayList<Design> topics;   //毕业设计题目查询结果集
 
     @Override
     public String execute() {
         boolean addCollege = addCollegeToTopicDao.addCollege(student,college);
+        //添加学院后更新页面的毕业设计题目展示表
         topics = queryTopicDao.QueryAll();
         Map session = ActionContext.getContext().getSession();
         session.put("topics",topics);
+        //addCollege为真,录入成功,数据已更新到数据库
+        //addCollege为假,录入失败,在页面显示录入失败等红字提示
         if(addCollege) {
             addActionMessage("录入成功!");
             return "success";
