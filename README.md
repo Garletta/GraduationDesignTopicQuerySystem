@@ -2,6 +2,9 @@
 Graduation Design Topic Query System
 
 ## 使用SSH框架
+* Hibernate5  
+* Struts2.5  
+* Spring4.2  
 
 ### 毕业设计题目查询系统  
 * 用户登录、  
