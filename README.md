@@ -1,5 +1,5 @@
 # GraduationDesignTopicQuerySystem
-Graduation Design Topic Query System
+毕业设计题目查询网页  
 
 ## 使用SSH框架
 * Hibernate5  
